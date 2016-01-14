@@ -1,0 +1,17 @@
+Source: dlib
+Maintainer: Séverin Lemaignan <severin@guakamole.org>
+Section: libs
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: dlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: C++ toolkit for machine learning and image processing
+ Dlib is a general purpose cross-platform open source software library written
+ in the C++ programming language. It now contains software components for
+ dealing with networking, threads, graphical interfaces, complex data
+ structures, linear algebra, statistical machine learning, image processing,
+ data mining, XML and text parsing, numerical optimization, Bayesian networks,
+ and numerous other tasks.
