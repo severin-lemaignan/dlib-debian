@@ -1,7 +1,7 @@
 Source: dlib
 Priority: optional
 Maintainer: Séverin Lemaignan <severin@guakamole.org>
-Build-Depends: debhelper (>= 9), cmake, libpng-dev, libjpeg-dev, libsqlite3-dev, libblas-dev, liblapack-dev
+Build-Depends: debhelper (>= 9), bzip2, cmake, libpng-dev, libjpeg-dev, libsqlite3-dev, libblas-dev, liblapack-dev
 Standards-Version: 3.9.6
 Section: libs
 Homepage: http://dlib.net/
