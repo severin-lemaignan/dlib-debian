@@ -24,3 +24,6 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 	-DDLIB_NO_GUI_SUPPORT=ON
 
+override_dh_auto_install:
+	dh_auto_install
+	find $(CURDIR)/debian/tmp/usr/include/dlib -type d -empty -delete
