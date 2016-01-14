@@ -1,2 +1,5 @@
 # upstream does not provide gpg signature
 dlib source: debian-watch-may-check-gpg-signature
+
+# upstream does not provide an easily available changelog
+source: no-upstream-changelog
