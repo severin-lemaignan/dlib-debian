@@ -8,11 +8,11 @@ Homepage: http://dlib.net/
 Vcs-Git: https://github.com/severin-lemaignan/dlib-debian.git
 Vcs-Browser: https://github.com/severin-lemaignan/dlib-debian
 
-Package: dlib-dev
+Package: libdlib-dev
 Section: libdevel
 Architecture: any
-Depends: dlib (= ${binary:Version}), ${misc:Depends}
-Description: C++ toolkit for machine learning and image processing
+Depends: libdlib18 (= ${binary:Version}), ${misc:Depends}
+Description: C++ toolkit for machine learning and computer vision - development
  Dlib is a general purpose cross-platform open source software library written
  in the C++ programming language. It now contains software components for
  dealing with networking, threads, graphical interfaces, complex data
@@ -22,10 +22,10 @@ Description: C++ toolkit for machine learning and image processing
  .
  This package contains the development headers.
 
-Package: dlib
+Package: libdlib18
 Architecture: any
 Depends: dlib-data, ${shlibs:Depends}, ${misc:Depends}
-Description: C++ toolkit for machine learning and image processing
+Description: C++ toolkit for machine learning and computer vision - runtime
  Dlib is a general purpose cross-platform open source software library written
  in the C++ programming language. It now contains software components for
  dealing with networking, threads, graphical interfaces, complex data
@@ -36,7 +36,7 @@ Description: C++ toolkit for machine learning and image processing
 Package: dlib-data
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: C++ toolkit for machine learning and image processing
+Description: C++ toolkit for machine learning and computer vision - models
  Dlib is a general purpose cross-platform open source software library written
  in the C++ programming language. It now contains software components for
  dealing with networking, threads, graphical interfaces, complex data
