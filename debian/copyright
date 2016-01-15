@@ -7,7 +7,7 @@ Files: *
 Copyright: 2008-2016 Davis E King <davis@dlib.net>
 License: Boost-Software-License-1.0
 
-Files: */shape_predictor_68_face_landmarks.dat.bz2
+Files: */shape_predictor_68_face_landmarks.dat
 Copyright: 2015-2016 Davis E King <davis@dlib.net>
 License: Creative-Commons-0-1.0
 
