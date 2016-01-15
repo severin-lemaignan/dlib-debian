@@ -1,9 +1,7 @@
 # upstream does not provide gpg signature
 dlib source: debian-watch-may-check-gpg-signature
-
 # upstream does not provide an easily available changelog
 no-upstream-changelog
-
 # symbols file are not recommended for C++ libraries
 # cf http://www.eyrie.org/~eagle/journal/2012-02/001.html
-libdlib18 binary: no-symbols-control-file
+no-symbols-control-file
