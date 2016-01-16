@@ -25,7 +25,7 @@ Description: C++ toolkit for machine learning and computer vision - development
 Package: libdlib18
 Architecture: any
 Depends: libdlib-data, ${shlibs:Depends}, ${misc:Depends}
-Description: C++ toolkit for machine learning and computer vision - runtime
+Description: C++ toolkit for machine learning and computer vision - library
  Dlib is a general purpose cross-platform open source software library written
  in the C++ programming language. It now contains software components for
  dealing with networking, threads, graphical interfaces, complex data
