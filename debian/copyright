@@ -4,12 +4,16 @@ Source: https://github.com/davisking/dlib
 Files-Excluded: *hgtags *.dll *.exe
 
 Files: *
-Copyright: 2008-2016 Davis E King <davis@dlib.net>
+Copyright: 2003-2016 Davis E King <davis@dlib.net>
 License: Boost-Software-License-1.0
 
 Files: */shape_predictor_68_face_landmarks.dat
 Copyright: 2015-2016 Davis E King <davis@dlib.net>
 License: Creative-Commons-0-1.0
+
+Files: examples/*
+Copyright: 2003-2016 Davis E King <davis@dlib.net>
+License: Creative-Commons-Public-Domain
 
 Files: debian/*
 Copyright: 2016 Séverin Lemaignan <severin@guakamole.org>
@@ -158,3 +162,17 @@ License: Creative-Commons-0-1.0
  For more information, please see
  <http://creativecommons.org/publicdomain/zero/1.0/>
 
+License: Creative-Commons-Public-Domain
+ This work is hereby released into the Public Domain. 
+ To view a copy of the public domain dedication, visit 
+ http://creativecommons.org/licenses/publicdomain/ or send a 
+ letter to 
+     Creative Commons 
+     171 Second Street 
+     Suite 300, 
+     San Francisco, California, 94105, USA.
+ .
+ Public domain dedications are not recognized by some countries.  So
+ if you live in an area where the above dedication isn't valid then
+ you can consider the example programs to be licensed under the Boost
+ Software License.
