@@ -2,7 +2,7 @@ Source: dlib
 Priority: optional
 Maintainer: Séverin Lemaignan <severin@guakamole.org>
 Build-Depends: debhelper (>= 9), bzip2, cmake, libpng-dev, libjpeg-dev, libsqlite3-dev, libblas-dev, liblapack-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Section: libs
 Homepage: http://dlib.net/
 Vcs-Git: https://github.com/severin-lemaignan/dlib-debian.git
